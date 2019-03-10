@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_feed"
+            android:icon="@drawable/ic_feed_24dp"
+            android:title="Feed" />
+
+        <item android:id="@+id/nav_mates"
+            android:icon="@drawable/ic_mates_24dp"
+            android:title="Mates" />
+        <item
+            android:id="@+id/nav_groups"
+            android:icon="@drawable/ic_group_24dp"
+            android:title="Groups" />
+        <item
+            android:id="@+id/nav_repository"
+            android:icon="@drawable/ic_repository_24dp"
+            android:title="Repository" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_voice"
+                android:icon="@drawable/ic_voice_24dp"
+                android:title="Voice" />
+            <item
+                android:id="@+id/nav_watch"
+                android:icon="@drawable/ic_watch_24dp"
+                android:title="Watch Party" />
+            <item
+                android:id="@+id/nav_invite"
+                android:icon="@drawable/ic_invite_24dp"
+                android:title="Invite"/>
+        </menu>
+
+    </item>
+
+</menu>
